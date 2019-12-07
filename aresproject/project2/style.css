@@ -1,0 +1,81 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+    font-family: 'Solway', serif;
+    background-image: linear-gradient(
+        115deg,
+        rgba(199, 71, 71, 0.8),
+        rgba(85, 85, 197, 0.7)
+      ),
+      url(images/download1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo, .sologan {
+    color: white;
+}
+
+.logo {
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+.sologan, .greeting {
+    width: 175px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.greeting {
+    margin: auto;
+    width: fit-content;
+}
+
+.signup-header {
+    text-align: center;
+    margin-bottom: 0;
+}
+hr {
+    border-width: 2px;
+    border-color: black;
+    margin-left: 10px;
+    margin-bottom: 0;
+    width: 170px;
+}
+
+.user-new-form {
+    border: 2px solid tomato;
+    width: 350px;
+    margin: 3rem auto;
+    padding: 10px auto;
+    border: 2px solid white;
+    color:white;
+    border-radius: 5%;
+    background-color: rgba(179, 58, 84, 0.877);
+}
+
+.form-fields {
+    padding: 10px 20px;
+    line-height: 1.5;
+    
+} 
+
+.form-fields .signup-fields{
+    width: 100%;
+    height: 2em;
+    border: 3px solid #d5d7de;
+    border-radius: 5px;
+}
+
+#submit-buttom {
+    margin-top: 1.1em;
+    font-weight: 900;
+    height: 3em;
+    width: 10em;
+    border-radius: 10% ;
+    background: white;
+}
+

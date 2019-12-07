@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Ares English</h1>
+        <hr>
+        <p class="sologan">lead your career</p>
+    </header>
+
+    <div class="user-new-form">
+        <header>
+            <h1 class="signup-header">FREE</h1>
+            <p class="greeting">Welcom to Aresenglish</p>
+        </header>
+        <form class="form-fields">
+            <div>
+                <div>
+                    <label class="signup-info" for="name">YOUR NAME</label><br>
+                    <input id="name" class="signup-fields" type="text" placeholder="Enter your name." name="user[name]" required>   
+                </div>
+                <div>
+                    <label class="signup-info" for="user-name">CHOOSE A USERNAME</label><br>
+                    <input id="user-name" class="signup-fields" type="text" placeholder="Enter your username." name="user[username]" required>   
+                </div>
+                <div>
+                    <label class="signup-info" for="email">EMAIL</label><br>
+                    <input id="email" class="signup-fields" type="email" placeholder="Enter your email." name="user[email]" required>   
+                </div>
+                <div>
+                    <label class="signup-info" for="password">CHOOSE A PASSWORD</label><br>
+                    <input id="password" class="signup-fields" type="password" placeholder="Enter your password." name="user[password]" minlength="6" required>   
+                </div>
+            </div>
+            <div>
+                <input id="submit-buttom" type="submit" value="SUBMIT">
+            </div>
+        </form>        
+    </div>
+</body>
+</html>
